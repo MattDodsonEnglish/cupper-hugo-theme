@@ -176,6 +176,7 @@ code {
 main ul,
 main ol {
     margin-left: 2.25rem;
+    margin-top: 0.75rem;
 }
 main li + li {
     margin-top: 0.5rem;
@@ -365,7 +366,11 @@ caption {
     margin-top: 4rem;
     text-align: center;
 }
-
+.slogan {
+    margin-top: 0.5rem;
+    margin-bottom: 2.25;
+    font-family: Gill Sans MT, Gill Sans, sans-serif;
+}
 /* Patterns navigation */
 .patterns {
     overflow: auto;
