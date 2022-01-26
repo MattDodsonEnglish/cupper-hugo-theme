@@ -40,6 +40,10 @@ body,
 .main-and-footer {
     margin-top: 0;
 }
+
+p {
+    max-width: 35rem;
+}
 p + p {
     margin-top: 0.75rem;
 }
@@ -176,6 +180,7 @@ code {
 main ul,
 main ol {
     margin-left: 2.25rem;
+    margin-right: 2.25rem;
     margin-top: 0.75rem;
 }
 main li + li {
