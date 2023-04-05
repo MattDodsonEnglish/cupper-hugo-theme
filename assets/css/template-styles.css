@@ -28,7 +28,7 @@ template {
   display: none !important;
 }
 * + * {
-    margin-top: 1rem;
+    margin-top: 2.25rem;
 }
 br,
 dt,
@@ -124,7 +124,6 @@ h1,
 h2,
 h3,
 h4 {
-    margin-top: 2.25rem;
     font-family: Miriam Libre, serif;
     line-height: 1.125;
 }
