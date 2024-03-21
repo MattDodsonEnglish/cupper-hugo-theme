@@ -1060,3 +1060,23 @@ h1 svg {
   background: rgba(0,0,0,.8);
   color: #fefefe;
 }
+a[href^="https://"]:after {
+  content: "\f08e";
+  font-family: FontAwesome;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  bottom: 1px; /* Adjust as needed */
+  padding-left: 3px;
+}
+
+/* Strip from links to own domain or with class no_icon */
+a[href^="https://wellshapedwords.com"]:after,
+a.no_icon:after,
+a[href^="https://wellshapedwords.com"]:after {
+  content: "" !important;
+  padding-left: 0; /* Remove padding */
+}
